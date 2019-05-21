@@ -1,0 +1,28 @@
+.interest {
+  border: 1px solid #d5d5d5;
+  padding: 5px 10px;
+  width: max-content;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  cursor: pointer;
+  position: relative;
+  transition: background-color .3s, color .3s;
+  color: #1574af;
+  text-transform: lowercase;
+  font-size: 12px; }
+  .interest svg {
+    position: absolute;
+    fill: red;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    transition: opacity .3s; }
+  .interest:hover {
+    background-color: #f3f3f3;
+    color: #000000; }
+    .interest:hover svg {
+      opacity: 1; }
+
+/*# sourceMappingURL=interests.css.map */

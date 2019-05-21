@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,KAAK;EACH,OAAO,EAAE,QAAQ;EACjB,sBAAsB,EAAE,GAAG;EAC3B,uBAAuB,EAAE,GAAG;EAC5B,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,MAAM;EACnB,gBAAgB,ECRC,OAAO;EDSxB,KAAK,ECNY,OAAO;EDOxB,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,OAAO;EAEf,YAAQ;IACN,gBAAgB,ECXD,OAAO;IDYtB,KAAK,ECVU,OAAO",
+"sources": ["tabs.scss","../../style/variables.scss"],
+"names": [],
+"file": "tabs.css"
+}

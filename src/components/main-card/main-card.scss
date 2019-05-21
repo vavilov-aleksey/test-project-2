@@ -1,0 +1,65 @@
+@import '../../style/variables';
+
+.main-card {
+  background-color: $color-white;
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  box-shadow: 1px 0 3px rgba($color-black, .3);
+  position: relative;
+  width: 485px;
+  height: 240px;
+
+  &__tabs {
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    display: flex;
+  }
+
+  &__user{
+    display: flex;
+    width: 100%;
+  }
+
+  .user{
+    &__description{
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  //For plugin baron
+  .clipper, .scroller{
+    width: 100%;
+  }
+
+  .bar{
+    background-color: $color-blue;
+    width: 6px;
+  }
+
+  .track{
+    background-color: $color-bg;
+    border-radius: 3px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+  }
+
+  @media ($width-mobile) {
+    max-width: 280px;
+    box-sizing: border-box;
+    height: 80vh;
+
+    &__user{
+      flex-direction: column;
+    }
+
+    .track{
+      right: -6px;
+    }
+  }
+}

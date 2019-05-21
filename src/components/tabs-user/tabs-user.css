@@ -1,0 +1,68 @@
+.user__preview {
+  margin-right: 20px; }
+
+.user__avatar {
+  width: 140px;
+  height: 177px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 6px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(../../images/not-photo.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: calc(50% + 15px);
+  position: relative; }
+  .user__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .user__avatar:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 1px 0 6px rgba(0, 0, 0, 0.32); }
+
+.user__info {
+  margin: 25px 0 30px; }
+
+.user__interests {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; }
+  .user__interests .info-line-full {
+    flex: 1 0 auto; }
+  .user__interests .add-interest {
+    position: absolute;
+    right: 9px;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    fill: #1574af; }
+    .user__interests .add-interest:hover + .user__interests-form {
+      display: block; }
+  .user__interests-form {
+    position: absolute;
+    left: 0;
+    right: 6px;
+    z-index: 1;
+    bottom: calc(100% - 20px);
+    display: none; }
+    .user__interests-form:hover {
+      display: block; }
+
+@media (max-width: 768px) {
+  .user__preview {
+    margin-right: 0; }
+
+  .user__avatar {
+    margin: 0 auto 6px; }
+
+  .user__interests-form {
+    width: 100%; } }
+
+/*# sourceMappingURL=tabs-user.css.map */

@@ -10,4 +10,12 @@
 #### Запуск проекта: `npm start`
 #### Сборка проекта: `npm run build`
 
+##### Используемые библиотеки:
+* [react-baron](https://github.com/Diokuz/react-baron)
+* [prop-types](https://github.com/facebook/prop-types)
+* [react-redux](https://react-redux.js.org/)
+* [redux](https://www.npmjs.com/package/redux)
+* [redux-thunk](https://www.npmjs.com/package/redux-thunk)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

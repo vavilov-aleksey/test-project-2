@@ -1,0 +1,20 @@
+.main-card__friends {
+  display: flex;
+  flex-wrap: wrap; }
+  .main-card__friends .card__friend {
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 30px; }
+    .main-card__friends .card__friend:nth-last-child(1), .main-card__friends .card__friend:nth-last-child(2) {
+      margin-bottom: 0; }
+  @media (max-width: 768px) {
+    .main-card__friends .card__friend {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px; }
+      .main-card__friends .card__friend:nth-last-child(1) {
+        margin-bottom: 0; }
+      .main-card__friends .card__friend:nth-last-child(2) {
+        margin-bottom: 20px; } }
+
+/*# sourceMappingURL=tabs-friends.css.map */

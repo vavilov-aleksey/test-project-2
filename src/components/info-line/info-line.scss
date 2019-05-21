@@ -1,0 +1,116 @@
+@import '../../style/variables';
+
+.info-line{
+  &,&-full, input{
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  &-full{
+    .info-line__content{
+      width: 100%;
+    }
+  }
+
+  &__content, &__desc{
+    width: 50%;
+    white-space: nowrap;
+    cursor: default!important;
+
+    h1{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 10px;
+    }
+
+    input{
+      padding: 0;
+      border: none;
+      margin-bottom: 0;
+      outline: none;
+
+      @-moz-document url-prefix() {
+        font-family: Arial, sans-serif;
+      }
+    }
+
+    svg{
+      width: 12px;
+      height: 12px;
+      fill: $color-blue;
+      position: absolute;
+      top: 0;
+      right: 9px;
+      opacity: 0;
+      transition: opacity .3s;
+      cursor: pointer;
+    }
+
+    &:hover{
+      svg{
+        opacity: 1;
+      }
+    }
+  }
+
+  &__content{
+    font-weight: bold;
+
+    input{
+      font-size: 23px;
+      font-weight: bold;
+      margin: 10px 0 0;
+
+      @-moz-document url-prefix() {
+        font-family: Arial, sans-serif;
+      }
+    }
+  }
+
+  a[href*='tel']{
+    color: $color-black;
+    text-decoration: none;
+  }
+
+  &__desc{
+    position: relative;
+    cursor: text;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+  }
+
+  @media ($width-mobile){
+    &__desc{
+      text-align: right;
+    }
+
+    &__content, &__desc{
+      svg{
+        opacity: 1;
+        right: 0;
+      }
+      
+      input{
+        background-color: $color-white;
+        padding-left: 5px;
+        box-shadow: 1px rgba($color-black, .1);
+      }
+    }
+
+    &__content{
+      position: relative;
+      svg{
+        top: 10px;
+      }
+
+      input{
+        padding-left: 0;
+        max-width: 100%;
+        padding-right: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../style/variables';
+
+button{
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: $color-orange;
+  padding: 10px 5px;
+  color: $color-white;
+  font-size: 12px;
+  transition: background-color .3s;
+  cursor: pointer;
+  box-shadow: 1px 0 2px rgba($color-black, .38);
+
+  &:hover{
+    background-color: rgba($color-orange, .85);
+  }
+}

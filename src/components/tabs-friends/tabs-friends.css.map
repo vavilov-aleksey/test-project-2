@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,mBAAmB;EACjB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EAEf,iCAAa;IACX,KAAK,EAAE,GAAG;IACV,SAAS,EAAE,GAAG;IACd,aAAa,EAVF,IAAI;IAYf,wGAAuC;MACrC,aAAa,EAAE,CAAC;EAIpB,yBAAuB;IACrB,iCAAa;MACX,KAAK,EAAE,IAAI;MACX,SAAS,EAAE,IAAI;MACf,aAAa,EApBE,IAAI;MAsBnB,mDAAmB;QACjB,aAAa,EAAE,CAAC;MAGlB,mDAAmB;QACjB,aAAa,EA3BA,IAAI",
+"sources": ["tabs-friends.scss"],
+"names": [],
+"file": "tabs-friends.css"
+}

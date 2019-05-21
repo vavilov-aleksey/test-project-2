@@ -1,0 +1,73 @@
+.info-line, .info-line-full, .info-line input {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 7px; }
+.info-line-full .info-line__content {
+  width: 100%; }
+.info-line__content, .info-line__desc {
+  width: 50%;
+  white-space: nowrap;
+  cursor: default !important; }
+  .info-line__content h1, .info-line__desc h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px; }
+  .info-line__content input, .info-line__desc input {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    outline: none; }
+@-moz-document url-prefix() {
+  .info-line__content input, .info-line__desc input {
+    font-family: Arial, sans-serif; } }
+  .info-line__content svg, .info-line__desc svg {
+    width: 12px;
+    height: 12px;
+    fill: #1574af;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    opacity: 0;
+    transition: opacity .3s;
+    cursor: pointer; }
+  .info-line__content:hover svg, .info-line__desc:hover svg {
+    opacity: 1; }
+.info-line__content {
+  font-weight: bold; }
+  .info-line__content input {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0 0; }
+@-moz-document url-prefix() {
+  .info-line__content input {
+    font-family: Arial, sans-serif; } }
+.info-line a[href*='tel'] {
+  color: #000000;
+  text-decoration: none; }
+.info-line__desc {
+  position: relative;
+  cursor: text;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 15px; }
+@media (max-width: 768px) {
+  .info-line__desc {
+    text-align: right; }
+  .info-line__content svg, .info-line__desc svg {
+    opacity: 1;
+    right: 0; }
+  .info-line__content input, .info-line__desc input {
+    background-color: #ffffff;
+    padding-left: 5px;
+    box-shadow: 1px rgba(0, 0, 0, 0.1); }
+  .info-line__content {
+    position: relative; }
+    .info-line__content svg {
+      top: 10px; }
+    .info-line__content input {
+      padding-left: 0;
+      max-width: 100%;
+      padding-right: 15px; } }
+
+/*# sourceMappingURL=info-line.css.map */

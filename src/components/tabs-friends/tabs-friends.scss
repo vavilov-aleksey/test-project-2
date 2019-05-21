@@ -1,0 +1,34 @@
+@import '../../style/variables';
+$marginBottom: 30px;
+$marginBottomMobile: 20px;
+
+.main-card__friends{
+  display: flex;
+  flex-wrap: wrap;
+
+  .card__friend{
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: $marginBottom;
+
+    &:nth-last-child(1),&:nth-last-child(2){
+      margin-bottom: 0;
+    }
+  }
+
+  @media ($width-mobile) {
+    .card__friend{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: $marginBottomMobile;
+
+      &:nth-last-child(1){
+        margin-bottom: 0;
+      }
+
+      &:nth-last-child(2){
+        margin-bottom: $marginBottomMobile;
+      }
+    }
+  }
+}

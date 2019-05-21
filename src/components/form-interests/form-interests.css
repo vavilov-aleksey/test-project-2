@@ -1,0 +1,13 @@
+.interests-form {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: inset 1px 0 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px; }
+  .interests-form input {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #757575;
+    padding: 5px; }
+
+/*# sourceMappingURL=form-interests.css.map */

@@ -1,0 +1,16 @@
+button {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: #E65C00;
+  padding: 10px 5px;
+  color: #ffffff;
+  font-size: 12px;
+  transition: background-color .3s;
+  cursor: pointer;
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.38); }
+  button:hover {
+    background-color: rgba(230, 92, 0, 0.85); }
+
+/*# sourceMappingURL=button.css.map */

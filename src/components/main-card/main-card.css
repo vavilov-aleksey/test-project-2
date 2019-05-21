@@ -1,0 +1,44 @@
+.main-card {
+  background-color: #ffffff;
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 485px;
+  height: 240px; }
+  .main-card__tabs {
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    display: flex; }
+  .main-card__user {
+    display: flex;
+    width: 100%; }
+  .main-card .user__description {
+    width: 100%;
+    overflow: hidden; }
+  .main-card .clipper, .main-card .scroller {
+    width: 100%; }
+  .main-card .bar {
+    background-color: #1574af;
+    width: 6px; }
+  .main-card .track {
+    background-color: #e3e3e3;
+    border-radius: 3px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px; }
+  @media (max-width: 768px) {
+    .main-card {
+      max-width: 280px;
+      box-sizing: border-box;
+      height: 80vh; }
+      .main-card__user {
+        flex-direction: column; }
+      .main-card .track {
+        right: -6px; } }
+
+/*# sourceMappingURL=main-card.css.map */

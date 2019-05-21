@@ -1,0 +1,15 @@
+.tabs {
+  padding: 7px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-right: 10px;
+  white-space: nowrap;
+  background-color: #1574af;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer; }
+  .tabs.active {
+    background-color: #ffffff;
+    color: #373737; }
+
+/*# sourceMappingURL=tabs.css.map */
